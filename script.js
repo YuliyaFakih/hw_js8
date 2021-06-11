@@ -6,10 +6,6 @@ document.body.style.marginRight = 'auto';
 document.body.style.textAlign = 'center';
 document.body.style.paddingBottom = '50px';
 
-let html = document.createElement('html');
-html.setAttribute('lang', 'en');
-console.log(html) //не знала, как добавить атрибут в html
-
 const title = document.createElement('title');
 title.innerHTML = 'New document';
 document.head.appendChild(title);
